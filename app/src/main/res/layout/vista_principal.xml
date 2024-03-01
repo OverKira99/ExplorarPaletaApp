@@ -30,7 +30,7 @@
                 android:id="@+id/rb_new_york"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="New York" />
+                android:text="New York." />
 
             <RadioButton
                 android:id="@+id/rb_bogota"
