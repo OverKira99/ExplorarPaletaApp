@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/rb_london"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="London" />
+
+            <RadioButton
+                android:id="@+id/rb_beijin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beijin" />
+
+            <RadioButton
+                android:id="@+id/rb_new_york"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New York" />
+
+            <RadioButton
+                android:id="@+id/rb_bogota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bogota" />
+        </RadioGroup>
+
+        <TextClock
+            android:id="@+id/tc_hora"
+            android:layout_width="match_parent"
+            android:layout_height="38dp" />
+
+        <CheckBox
+            android:id="@+id/cb_transparente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transparente" />
+
+        <CheckBox
+            android:id="@+id/cb_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cambiar Color" />
+
+        <CheckBox
+            android:id="@+id/cb_tamano"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cambiar Tamaño" />
+
+        <Switch
+            android:id="@+id/s_ocultar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ocultar" />
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+
+            app:srcCompat="@drawable/unab" />
+
+    </LinearLayout>
+</ScrollView>
